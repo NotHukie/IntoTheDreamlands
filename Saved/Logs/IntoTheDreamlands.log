@@ -1662,3 +1662,8 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.24-14.21.05:933][667]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.49% of total time (compiled   16 times, average 2.20 sec, max 3.38 sec, min 1.86 sec)
 [2022.10.24-14.21.05:933][667]LogShaderCompilers: Display: ================================================
 [2022.10.24-14.21.24:286][625]Cmd: MODE GRID=0
+[2022.10.24-14.26.32:966][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.10.24-14.26.33:000][866]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3
+[2022.10.24-14.26.33:001][866]LogSavePackage: Moving '../../../../Users/Hugo Barbosa/Documents/GitHub/IntoTheDreamlands/Saved/ThirdPersonExampleMap_Auto3293583C04BFBA0AFD0A66D909E43B51E.tmp' to '../../../../Users/Hugo Barbosa/Documents/GitHub/IntoTheDreamlands/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2022.10.24-14.26.33:008][866]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.104
+[2022.10.24-14.26.33:008][866]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.104
