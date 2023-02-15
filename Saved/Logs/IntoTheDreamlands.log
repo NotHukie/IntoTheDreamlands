@@ -2002,4 +2002,3 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.02.15-11.04.38:785][171]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2023.02.15-11.20.40:872][912]LogDerivedDataCache: C:/Users/carol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.131 and deleted 0 file(s) with total size 0 MiB.
 [2023.02.15-12.20.40:861][782]LogDerivedDataCache: C:/Users/carol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.252 and deleted 0 file(s) with total size 0 MiB.
-[2023.02.15-13.20.41:478][594]LogDerivedDataCache: C:/Users/carol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.843 and deleted 0 file(s) with total size 0 MiB.
