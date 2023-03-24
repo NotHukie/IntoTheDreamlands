@@ -111,7 +111,14 @@
 <li><a href="#disabling-unreal-audio-device">Disabling Unreal Audio Device</a></li>
 </ul>
 </li>
-<li><a href="#source-control">Source Control</a></li>
+<li><a href="#source-control">Source Control</a><ul>
+<li><a href="#generated-assets">Generated Assets</a><ul>
+<li><a href="#excluding-generated-files-from-source-control">Excluding Generated files from Source Control</a></li>
+<li><a href="#adding-generated-files-to-source-control">Adding Generated files to Source Control</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a href="#commandlet">Commandlet</a></li>
 </ul>
 </li>
@@ -138,33 +145,33 @@
 <h3 id="additional-platforms"><a href="#additional-platforms">2.1.2 Additional Platforms</a></h3>
 <p>After installing the integration plugin for your host platform you may need to install additional plugins for other platforms which you are targeting.</p>
 <h4 id="windows-desktop"><a href="#windows-desktop">Windows Desktop</a></h4>
-<p>Install the Windows plugin following the instructions for <a class="apilink" href="#host-platform-integration" title="">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely.</p>
+<p>Install the Windows plugin following the instructions for <a class="apilink" href="#host-platform-integration">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely.</p>
 <h4 id="universal-windows-platform"><a href="#universal-windows-platform">Universal Windows Platform</a></h4>
-<p>UWP support is included in the Windows plugin package. Install the plugin following the instructions for <a class="apilink" href="#host-platform-integration" title="">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely.</p>
+<p>UWP support is included in the Windows plugin package. Install the plugin following the instructions for <a class="apilink" href="#host-platform-integration">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely.</p>
 <h4 id="linux"><a href="#linux">Linux</a></h4>
-<p>Install the Linux plugin following the instructions for <a class="apilink" href="#host-platform-integration" title="">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#linux">Platform Specifics | Linux</a> section for more information.</p>
+<p>Install the Linux plugin following the instructions for <a class="apilink" href="#host-platform-integration">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#linux">Platform Specifics | Linux</a> section for more information.</p>
 <h4 id="macos"><a href="#macos">MacOS</a></h4>
-<p>Install the Mac plugin following the instructions for <a class="apilink" href="#host-platform-integration" title="">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#macos">Platform Specifics | macOS</a> section for more information.</p>
+<p>Install the Mac plugin following the instructions for <a class="apilink" href="#host-platform-integration">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#macos">Platform Specifics | macOS</a> section for more information.</p>
 <h4 id="ios"><a href="#ios">iOS</a></h4>
-<p>iOS support is included in the Mac plugin package. Install the plugin following the instructions for <a class="apilink" href="#host-platform-integration" title="">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#ios">Platform Specifics | iOS</a> section for more information.</p>
+<p>iOS support is included in the Mac plugin package. Install the plugin following the instructions for <a class="apilink" href="#host-platform-integration">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#ios">Platform Specifics | iOS</a> section for more information.</p>
 <h4 id="tvos"><a href="#tvos">tvOS</a></h4>
-<p>tvOS support is included in the Mac plugin package. Install the plugin following the instructions for <a class="apilink" href="#host-platform-integration" title="">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#tvos">Platform Specifics | tvOS</a> section for more information.</p>
+<p>tvOS support is included in the Mac plugin package. Install the plugin following the instructions for <a class="apilink" href="#host-platform-integration">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#tvos">Platform Specifics | tvOS</a> section for more information.</p>
 <h4 id="android"><a href="#android">Android</a></h4>
-<p>Android support is included in the Windows plugin package. Install the plugin following the instructions for <a class="apilink" href="#host-platform-integration" title="">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#android">Platform Specifics | Android</a> section for more information.</p>
+<p>Android support is included in the Windows plugin package. Install the plugin following the instructions for <a class="apilink" href="#host-platform-integration">Host Platform Integration</a>. Files which are duplicated between the plugins can be overwritten safely. Additional setup is required for this platform, please see the <a href="platform-specifics.html#android">Platform Specifics | Android</a> section for more information.</p>
 <h4 id="ps4"><a href="#ps4">PS4</a></h4>
-<p>Install the PS4 plugin following the instructions for <a class="apilink" href="#platform-specific-integrations" title="">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#ps4">Platform Specifics | PS4</a> section for more information.</p>
+<p>Install the PS4 plugin following the instructions for <a class="apilink" href="#platform-specific-integrations">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#ps4">Platform Specifics | PS4</a> section for more information.</p>
 <h4 id="ps5"><a href="#ps5">PS5</a></h4>
-<p>Install the PS5 plugin following the instructions for <a class="apilink" href="#platform-specific-integrations" title="">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#ps5">Platform Specifics | PS5</a> section for more information.</p>
+<p>Install the PS5 plugin following the instructions for <a class="apilink" href="#platform-specific-integrations">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#ps5">Platform Specifics | PS5</a> section for more information.</p>
 <h4 id="xbox-one"><a href="#xbox-one">XBox One</a></h4>
-<p>Install the Xbox One plugin following the instructions for <a class="apilink" href="#platform-specific-integrations" title="">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#xbox-one_1">Platform Specifics | Xbox One</a> section for more information.</p>
+<p>Install the Xbox One plugin following the instructions for <a class="apilink" href="#platform-specific-integrations">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#xbox-one_1">Platform Specifics | Xbox One</a> section for more information.</p>
 <h4 id="xbox-series-xs"><a href="#xbox-series-xs">XBox Series X|S</a></h4>
-<p>Install the XBox Series X|S plugin following the instructions for <a class="apilink" href="#platform-specific-integrations" title="">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#xbox-series-xs">Platform Specifics | Xbos Series X|S</a> section for more information.</p>
+<p>Install the XBox Series X|S plugin following the instructions for <a class="apilink" href="#platform-specific-integrations">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#xbox-series-xs">Platform Specifics | Xbos Series X|S</a> section for more information.</p>
 <h4 id="switch"><a href="#switch">Switch</a></h4>
-<p>Install the Switch plugin following the instructions for <a class="apilink" href="#platform-specific-integrations" title="">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#switch">Platform Specifics | Switch</a> section for more information.</p>
+<p>Install the Switch plugin following the instructions for <a class="apilink" href="#platform-specific-integrations">Platform Specific Integrations</a>. Additional setup is required for this platform, please see the <a href="platform-specifics.html#switch">Platform Specifics | Switch</a> section for more information.</p>
 <h3 id="platform-specific-integrations"><a href="#platform-specific-integrations">2.1.3 Platform Specific Integrations</a></h3>
 <p>When adding additional platform specific integration packages you should extract them directly into the project root directory. After extracting them you should have this kind of structure:</p>
 <p><img alt="Platform Specific Integrations" src="images/platform-specific-integrations.png" /></p>
-<p>Additional platform specific installation instructions may be included in the <code>Extras</code> directory of the integration plugin packages. Most platforms will require additional config files. Refer to the <a href="platform-specifics.html">Platform Specifics</a> section for more information. Otherwise see the <a href="troubleshooting.html#check-the-plugin-is-installed">TroubleShooting</a> section.</p>
+<p>Additional platform specific installation instructions may be included in the <a href="platform-specifics.html">Platform Specifics</a> section. Most platforms will require additional config files. Refer to the <a href="platform-specifics.html">Platform Specifics</a> section for more information. Otherwise see the <a href="troubleshooting.html#check-the-plugin-is-installed">TroubleShooting</a> section.</p>
 <h2 id="setting-up-your-project"><a href="#setting-up-your-project">2.2 Setting up your project</a></h2>
 <p>After adding The FMOD UE4 integration to your project or engine, you will need to restart the Unreal Editor before you can access it.<br />
 There are settings in both Unreal and FMOD Studio that need to be configured to link the two together.</p>
@@ -401,7 +408,7 @@ You will need to add these parameter names to the integration settings.</p>
 <p>You can also call <a href="blueprint-reference-common.html#play-event-attached">Play Event Attached</a> to create a new audio component attached to an actor, which will update the location automatically as the actor moves around the world.</p>
 <h3 id="programming-with-the-fmod-studio-c-api"><a href="#programming-with-the-fmod-studio-c-api">2.13.2 Programming with the FMOD Studio C++ API</a></h3>
 <p>Programmers can interface with FMOD Studio directly by including "fmod_studio.hpp".</p>
-<p>The Studio system can be obtained by <span class="dead-link" href="api-reference-ifmodstudiomodule.html#ifmodstudiomodule_getstudiosystem">GetStudioSystem</span class="dead-link">. The function takes an enum because there may be a separate Studio system for auditioning in-editor and the proper system for play-in-editor. Normally, you will want to obtain the system with <span class="dead-link" href="api-reference-ifmodstudiomodule.html#efmodsystemcontext">EFMODSystemContext.Runtime</span class="dead-link"> since that is the real system used in game.</p>
+<p>The Studio system can be obtained by <span class="dead-link" href="api-reference-ifmodstudiomodule.html#ifmodstudiomodule_getstudiosystem">GetStudioSystem</span class="dead-link">. The function takes an enum because there may be a separate Studio system for auditioning in-editor and the proper system for play-in-editor. Normally, you will want to obtain the system with <span class="dead-link" href="api-reference-common.html#efmodsystemcontext">EFMODSystemContext.Runtime</span class="dead-link"> since that is the real system used in game.</p>
 <div class="highlight language-cpp"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="n">IFMODStudioModule</span><span class="o">::</span><span class="n">IsAvailable</span><span class="p">())</span>
 <span class="p">{</span>
     <span class="n">FMOD</span><span class="o">::</span><span class="n">Studio</span><span class="o">::</span><span class="n">System</span><span class="o">*</span> <span class="n">StudioSystem</span> <span class="o">=</span> <span class="n">IFMODStudioModule</span><span class="o">::</span><span class="n">Get</span><span class="p">().</span><span class="n">GetStudioSystem</span><span class="p">(</span><span class="n">EFMODSystemContext</span><span class="o">::</span><span class="n">Runtime</span><span class="p">);</span>
@@ -668,13 +675,29 @@ AudioMixerModuleName=
 <h2 id="source-control"><a href="#source-control">2.16 Source Control</a></h2>
 <p>Not all of the plugin files are required to be checked in to source control, below the necessary files are marked:</p>
 <p><img alt="Source Control Files to Add" src="images/source-control.png" /></p>
-<p>Other files/folders are optional and will depend on your teams setup.</p>
 <div class="admonition warning">
 <p>FMOD Banks cannot be added using the In-Editor source control, as the editor only interacts with UAssets, they need to be added to source control from outside of the UE Editor.</p>
 </div>
-<p>From UE4.26 onwards, we changed the generated assets in the plugin from in memory to serialized to disk.<br />
-Now it is possible to add these generated assets to source control which will remove the need for each team member to build their own. This occurs automatically when banks are modified/loaded in the editor. If you need to build them from command line see <a class="apilink" href="#commandlet" title="">Commandlet</a>.</p>
+<p>Other files/folders are optional and will depend on your teams setup.</p>
+<h3 id="generated-assets"><a href="#generated-assets">2.16.1 Generated Assets</a></h3>
+<p>From UE4.26 onwards, generated assets in the plugin will be serialized to disk. These files can be generated in two ways:</p>
+<ul>
+<li>
+<p>Unreal Editor: By opening the Unreal Editor, the FMOD plugin will automatically load the FMOD Studio bank files and generate assets on disk.</p>
+</li>
+<li>
+<p><a class="apilink" href="#commandlet">Commandlet</a>: This can be used from commandline to generate assets on disk without opening the Unreal Editor.</p>
+</li>
+</ul>
+<h4 id="excluding-generated-files-from-source-control"><a href="#excluding-generated-files-from-source-control">Excluding Generated files from Source Control</a></h4>
+<p>The recommended way of dealing with generated assets is to exclude all generated assets from source control. This can help prevent source control locking/conflicts as the assets are generated locally when the editor is opened.</p>
+<p>If you employ an automated build process that pulls directly from source control without running the Unreal Editor, the generated assets will need to be built explicitly as part of your build process. This can be done with the provided <a class="apilink" href="#commandlet">Commandlet</a>.</p>
+<h4 id="adding-generated-files-to-source-control"><a href="#adding-generated-files-to-source-control">Adding Generated files to Source Control</a></h4>
+<p>While not recommended, it is possible to add the generated assets to source control. This can simplify your automated build process (no need to run the Commandlet) at the cost of complicating your source control workflow (possible locking/conflict issues).</p>
 <p><img alt="Source Control Generated Assets" src="images/source-control-generated-assets.png" /></p>
+<div class="admonition warning">
+<p>When updating the banks, make sure to update the generated assets at the same time. This is to avoid conflicting checkouts with the Unreal Editor source control plugin.</p>
+</div>
 <h2 id="commandlet"><a href="#commandlet">2.17 Commandlet</a></h2>
 <p>From UE4.26 onwards, FMOD for Unreal now provides a Commandlet for generating the serialized UAssets without having to open the Editor.</p>
 <div class="highlight language-text"><pre><span></span>{editor-executable} {ProjectPath.uproject} -run=FMODGenerateAssets [-rebuild]
@@ -686,7 +709,7 @@ Now it is possible to add these generated assets to source control which will re
 </ul>
 <p>This can be especially useful for build machines that don't normally run the Editor at all, which is what normally triggers the assets to be built, and does not require the generated assets to be checked in to source control.</p></div>
 
-<p class="manual-footer">Unreal Integration 2.02.12 (2023-01-31). &copy; 2023 Firelight Technologies Pty Ltd.</p>
+<p class="manual-footer">Unreal Integration 2.02.13 (2023-03-20). &copy; 2023 Firelight Technologies Pty Ltd.</p>
 </body>
 </html>
 
