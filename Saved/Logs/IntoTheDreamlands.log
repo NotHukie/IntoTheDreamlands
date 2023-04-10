@@ -883,3 +883,8 @@ Script Stack (0 frames):
 [2023.04.10-15.10.17:581][  0]LogSavePackage: Moving '../../../../Documentos/VAM/3º Ano/Jogo 3ºAno/IntoTheDreamlands/Saved/L0andL1B2802EF0417D252F1A3A4BA0CEA36725.tmp' to '../../../../Documentos/VAM/3º Ano/Jogo 3ºAno/IntoTheDreamlands/Content/ThirdPersonBP/Maps/L0andL1.umap'
 [2023.04.10-15.10.17:643][  0]AssetCheck: New page: Asset Save: L0andL1
 [2023.04.10-15.10.17:643][  0]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/L0andL1.L0andL1
+[2023.04.10-15.11.24:011][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.04.10-15.11.26:554][540]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Maps/L0andL1
+[2023.04.10-15.11.26:555][540]LogSavePackage: Moving '../../../../Documentos/VAM/3º Ano/Jogo 3ºAno/IntoTheDreamlands/Saved/L0andL135719665482D1BDA942C7DA7FA43AC1C.tmp' to '../../../../Documentos/VAM/3º Ano/Jogo 3ºAno/IntoTheDreamlands/Content/ThirdPersonBP/Maps/L0andL1.umap'
+[2023.04.10-15.11.26:636][540]AssetCheck: New page: Asset Save: L0andL1
+[2023.04.10-15.11.26:636][540]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/L0andL1.L0andL1
