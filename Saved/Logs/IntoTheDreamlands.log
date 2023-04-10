@@ -4602,3 +4602,8 @@ Actor Begin Overlap Signature  Delegate Signature
 [2023.04.10-13.50.07:228][457]LogSavePackage: Moving '../../../../Documentos/VAM/3º Ano/Jogo 3ºAno/IntoTheDreamlands/Saved/L0andL1C588EFA24B834C9B438BE59B168A6BFE.tmp' to '../../../../Documentos/VAM/3º Ano/Jogo 3ºAno/IntoTheDreamlands/Content/ThirdPersonBP/Maps/L0andL1.umap'
 [2023.04.10-13.50.07:327][457]AssetCheck: New page: Asset Save: L0andL1
 [2023.04.10-13.50.07:327][457]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/L0andL1.L0andL1
+[2023.04.10-13.52.46:508][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.04.10-13.52.48:698][582]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Maps/L0andL1
+[2023.04.10-13.52.48:699][582]LogSavePackage: Moving '../../../../Documentos/VAM/3º Ano/Jogo 3ºAno/IntoTheDreamlands/Saved/L0andL112580E0F4946B5031ED2B2888F616EFC.tmp' to '../../../../Documentos/VAM/3º Ano/Jogo 3ºAno/IntoTheDreamlands/Content/ThirdPersonBP/Maps/L0andL1.umap'
+[2023.04.10-13.52.48:794][582]AssetCheck: New page: Asset Save: L0andL1
+[2023.04.10-13.52.48:794][582]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/L0andL1.L0andL1
